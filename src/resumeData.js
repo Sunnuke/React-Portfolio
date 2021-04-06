@@ -1,30 +1,31 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "imagebaseurl":"",
+    "name": "Javier Rivera",
+    "role": "Full Stack Web Developer, tech-savvy, cyberpunk fan boy, and veteran",
+    "linkedinId":" https://linkedin.com/in/javier-c-rivera",
+    "twitterId": "https://twitter.com/sunnuke",
+    "roleDescription": " I have basic knowledge and experience with Full Stack Development using Python, JAVA, MERN and I am passionate about the puzzles of creation with computer technology and like to learn about new technologies, and solve puzzle cubes or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://linkedin.com/in/javier-c-rivera",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/Sunnuke",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"twitter",
+          "url":"https://twitter.com/sunnuke",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":'I am a Coding Dojo Coding Bootcamp graduate and a military veteran with 3 years of expertise in naval logistics I look forward to developing and delivering meaningful web applications and products that can help companies develop solutions to improve user experiences. My Motto is: "Never Believe that you are the Best, because you can always be Better." I say this because there is always room for improvement.',
+    "address":"San Diego, California",
+    "website":"https://linkedin.com/in/javier-c-rivera",
+    "email":" javiercr3xx@gmail.com",
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
@@ -71,24 +72,14 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Xplanet",
+        "description":"A Synthwave Styled social platform concept for gamers, enabling users to access curated gaming news and media, interact with other gamers, create and personalized private profile pages",
+        "imgurl":"images/portfolio/Xplanet.gif"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"PokeDexAPI",
+        "description":"An app for Pokemon fans that enables users to explore the entire library of the Pokemon universe and see their stats and alternate versions.",
+        "imgurl":"images/portfolio/Pokedex.gif"
       }
     ],
     "testimonials":[
