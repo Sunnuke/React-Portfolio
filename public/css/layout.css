@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #721a83; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -169,7 +169,8 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #ffa6f0;
+   text-shadow: 0px 0px 10px #ffffff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -179,7 +180,14 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { 
+   font-family: 'Damion', cursive;
+   font-size: 2em;
+   color: #00ffff;
+   -ms-transform: skewY(-5deg);
+   transform: skewY(-5deg);
+   text-shadow: 0px 0px 10px #00ffff;
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -425,6 +433,9 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+#portfolio-wrapper {
+   justify-content: space-between;
+}
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -1003,4 +1014,44 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+/* ################ TITLE Effects ################ */
+.Test {
+   /* small title name ( h3 ) */
+   display: inline-block;
+	font-family: 'Damion', cursive;
+   color: #fff;
+   color: #ee91ae;
+   /* Big title font (h1) */
+   display: inline-block;
+	font-family: 'Work Sans', sans-serif;
+   color: transparent;
+   background: linear-gradient(#000000 0%,#113e87 22%,#10cccc 50%,#000000 51%,#e21ddc 78%,#e21ddc 78%,#ffffff 100%);
+   text-transform: uppercase;
+}
+
+#TitlePhrase {
+   display: inline-block;
+	/* font-family: 'Work Sans', sans-serif; */
+   background: -webkit-linear-gradient(
+      #ffffff 0%,#277aff 22%,#00ffff 50%,#e88aff 55%,#e21ddc 70%,#ff00f7 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+   text-transform: uppercase;
+   text-shadow: 0px 0px 20px #e789ff;
+}
+
+#TitleName {
+   display: inline-block;
+	font-family: 'Damion', cursive;
+   color: #00ffff;
+   -ms-transform: skewY(-10deg);
+   transform: skewY(-10deg);
+   text-shadow: 0px 0px 10px #42e3ff;
+   z-index: 1;
+   position: absolute;
+   font-size: 0.5em;
+   top: 27%;
+   left: 63%;
+}
 
