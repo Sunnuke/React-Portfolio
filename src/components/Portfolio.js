@@ -5,9 +5,9 @@ export default class Porfolio extends Component {
     return (
       <section id="portfolio">
       <div className="row">
-        <div className="twelve columns collapsed">
+        {/* <div className="twelve columns collapsed"> */}
           <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div id="portfolio-wrapper" className="s cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
@@ -28,7 +28,7 @@ export default class Porfolio extends Component {
             })
           }
           </div>
-        </div>
+        {/* </div> */}
       </div>
   </section>
         );

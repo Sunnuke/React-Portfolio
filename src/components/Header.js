@@ -12,20 +12,28 @@ export default class Header extends Component {
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+               {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+               <li><a href="https://docs.google.com/document/d/1koz4fEwDD2siovUuIcpyX_bCuoauAfnNaO7cEC4xKlg/edit?usp=sharing">Resume</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
-               </h3>
-               <hr/>
-               <ul className="social">
+              <div className="content-cont">
+                <div className="text-body">
+                  <h1>
+                    <span id="TitlePhrase">The Great Journey</span>
+                    <h2 id="TitleName" >I am {resumeData.name}</h2>
+                  </h1>
+                </div>
+              </div>
+              {/* <h1 className="responsive-headline">I am {resumeData.name}.</h1> */}
+              <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+              </h3>
+              <hr/>
+              <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
